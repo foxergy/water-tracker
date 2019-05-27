@@ -7,6 +7,7 @@ You can run it locally or even put it on a server.
 First run the backend.
 1. cd into the water-tracker-backend/
 2. run 'gradle bootRun'
+
 Run the frontend.
 1. you have to update the url to call the backend. 
    In water-tracker-frontend/src/service/drink-service.ts you can change the url.
