@@ -1,0 +1,36 @@
+.main-container > div {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1px;
+    height: 100%;
+}
+@media only screen and (max-width: 599px) {
+    .main-container{
+        grid-template-rows: 5% 31% 15% 15% 14% 14%;
+    
+    }
+}
+
+@media only screen and (min-width: 600px ) {
+    .main-container{
+        grid-template-rows: 5% 31% 15% 15% 28%;
+    }
+}
+
+@media only screen and (min-width: 980px ) {
+    .main-container{
+        grid-template-rows: 5% 31% 31% 28%;
+    }
+}
+
+@media only screen and (min-width: 1260px ) {
+    .main-container{
+        grid-template-rows: 5% 31% 31% 28%;
+    }
+}

@@ -1,0 +1,26 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+
+.icon-width{
+width:30px;
+}
+
+.icon-inline{
+    display: inline-block;
+}
+
+.icon-inline-right{
+    display: inline-block;
+    float: right;
+}
+
+.clickable-image{
+    cursor:pointer;
+}
+
+.clickable-image:hover{
+}

@@ -1,0 +1,18 @@
+.tab2, .tab3{
+    margin-left: 10%;
+}
+
+.tab1, .tab2, .tab3{
+    display: inline-block;
+    height: 100%;
+    text-align:center;
+}
+
+.link-container{
+    border-radius: 100%;
+    width: 90%;
+    height: 50%;
+    &:hover{
+        background-color: rgba($color: #e2d9d9, $alpha: 1.0)
+    }
+}

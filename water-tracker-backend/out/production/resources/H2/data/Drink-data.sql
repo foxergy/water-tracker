@@ -1,0 +1,1 @@
+MERGE INTO Drink VALUES(1, '2019-05-25T13:34:00.000', 'Water', 0.25);

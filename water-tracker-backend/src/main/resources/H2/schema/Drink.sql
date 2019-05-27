@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Drink(
+id BIGINT default drink_seq.nextval PRIMARY KEY NOT NULL,
+date_time TIMESTAMP NOT NULL,
+name VARCHAR(50) NOT NULL,
+amount DOUBLE NOT NULL
+);

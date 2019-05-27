@@ -1,0 +1,35 @@
+<div class="main-container">
+   <div class="header">
+      <ion-toolbar>
+            <ion-title>
+                  Overview
+            </ion-title>
+      </ion-toolbar>
+   </div>
+
+   <div class="header-image">
+         <app-welcome-card></app-welcome-card>
+   </div>
+
+   <div class="content-row-1-card-1">
+      <ion-card>
+        <ion-card-content class="chart-content-card" >
+           <div class="chart-container" >
+          <canvas #lineCanvas></canvas>
+        </div>
+        </ion-card-content>
+      </ion-card>
+   </div>
+   <div class="content-row-1-card-2">
+      <ion-card>
+            <ion-card-content class="chart-content-card" >
+               <div class="chart-container" >
+              <canvas #lineCanvas2></canvas>
+            </div>
+            </ion-card-content>
+      </ion-card>
+   </div>
+    
+   <app-tabs class="footer"></app-tabs>
+
+</div>

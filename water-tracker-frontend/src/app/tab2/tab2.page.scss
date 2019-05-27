@@ -1,0 +1,121 @@
+
+
+.chart-content-card{
+    text-align: center;
+}
+
+.header{
+    max-height:50px;
+  }
+
+.footer{
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.main-container > div {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 599px) {
+  .header{
+    grid-template-rows: 30px; 
+    grid-column: 1/-1;
+    grid-row: 1/1;
+  }
+  .header-image{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
+
+  .content-row-1-card-1, .content-row-1-card-2{
+    grid-column: 1/-1;
+    max-height:279px;
+  }
+  .content-row-1-card-1 {
+    grid-row: 3;
+  }
+  .content-row-1-card-2{
+    grid-row: 4;
+  }
+  #lineCanvas, canvas, .chart-content-card, .chart-container{
+    max-height:270px;
+  }
+}
+
+@media only screen and (min-width: 600px ) {
+    .header{
+      grid-column: 1/-1;
+      grid-row: 1/1;
+    }
+    .header-image{
+      grid-column: 1/-1;
+      grid-row: 2/3;
+    }
+    .content-row-1-card-1, .content-row-1-card-2{
+      grid-column: 1/-1;
+      max-height:279px;      
+
+    }
+    .content-row-1-card-1 {
+      grid-row: 3;
+    }
+    .content-row-1-card-2{
+      grid-row: 4;
+    }
+      
+    #lineCanvas, canvas {
+        display: inline-block !important; 
+        max-width:545px;      
+        max-height:230px;
+      }
+}
+
+
+@media only screen and (min-width: 980px ) {
+    .main-container{
+        grid-template-rows: 0.2fr 1.5fr 3fr;
+    }
+    .header{
+        grid-column: 1/-1;
+        grid-row: 1/1;
+      }
+      .header-image{
+        grid-column: 1/-1;
+        grid-row: 2/2;
+        max-height: 230px;
+      }
+    .content-row-1-card-1{
+      grid-column: 1 / 7;
+      grid-row: 3/5;
+    }
+    .content-row-1-card-2{
+      grid-column: 7 / 13;
+      grid-row: 3/5;
+    }
+    
+    .chart-content-card, .chart-container{
+        max-height:600px;
+
+    }
+    #lineCanvas, canvas {
+        display: inline-block !important; 
+        max-width:700px;      
+        max-height:600px;
+      }
+  }
+  
+  @media only screen and (min-width: 1260px ) {
+    .main-container{
+        grid-template-rows: 0.2fr 1.5fr 3fr;
+    }
+  }

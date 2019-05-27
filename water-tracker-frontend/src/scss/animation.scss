@@ -1,0 +1,119 @@
+
+  .path-middle-splash{
+    position: relative;
+    -webkit-animation-name: splash1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+  
+    animation-name: splash1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  
+    -moz-animation-name: splash1;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1; 
+    -moz-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes splash1 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(0px, 0px);}
+  }
+  
+  /* Standard syntax */
+  @keyframes splash1 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(0px, 0px);}
+  }
+  
+  /* Mozilla syntax */
+  
+  @-moz-keyframes splash1 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(0px, 0px);}
+  }
+  
+.path-left-splash{
+    position: relative;
+    -webkit-animation-name: splash2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+  
+    animation-name: splash2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  
+    -moz-animation-name: splash2;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1; 
+    -moz-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes splash2 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(-2px, 0px);}
+  }
+  
+  /* Standard syntax */
+  @keyframes splash2 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(-2px, 0px);}
+  }
+  /* Mozilla syntax */
+  @-moz-keyframes splash2 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(-2px, 0px);}
+  }
+
+  .path-right-splash{
+    position: relative;
+    -webkit-animation-name: splash3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+  
+    animation-name: splash3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  
+    -moz-animation-name: splash3;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1; 
+    -moz-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes splash3 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(2px, 0px);}
+  }
+  
+  /* Standard syntax */
+  @keyframes splash3 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(2px, 0px);}
+  }
+  
+  /* Mozilla syntax */
+  @-moz-keyframes splash3 {
+    0%   {transform: translate(0px, 4px);}
+    100% {transform: translate(2px, 0px);}
+  }
+
+  
